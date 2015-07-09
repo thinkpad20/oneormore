@@ -4,7 +4,7 @@ module Data.OneOrMore.Definition where
 import Prelude (($), (.), error, Functor(..), Show, Eq)
 import GHC.Exts (IsList(..))
 import Control.Applicative
-import Data.Foldable (Foldable(..))
+import Data.Foldable (Foldable, foldr)
 import Data.Traversable (Traversable(..))
 
 data OneOrMore a = One a

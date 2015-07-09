@@ -2,7 +2,7 @@
 -- documentation, see http://haskell.org/cabal/users-guide/
 
 name:                oneormore
-version:             0.1.0.3
+version:             0.1.0.4
 synopsis:            A never-empty list type.
 -- description:
 homepage:            https://github.com/thinkpad20/oneormore
@@ -20,6 +20,6 @@ library
   exposed-modules:     Data.OneOrMore, Data.OneOrMore.Operators, Data.OneOrMore.Definition
   -- other-modules:
   other-extensions:    LambdaCase, OverloadedLists, TypeFamilies
-  build-depends:       base >=4.7 && <4.8
+  build-depends:       base >=4.7 && <5
   hs-source-dirs:      src
   default-language:    Haskell2010
